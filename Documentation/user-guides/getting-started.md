@@ -108,7 +108,7 @@ metadata:
 
 [embedmd]:# (../../example/rbac/prometheus/prometheus-cluster-role.yaml)
 ```yaml
-apiVersion: rbac.authorization.k8s.io/v1beta1
+apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRole
 metadata:
   name: prometheus
@@ -136,7 +136,7 @@ rules:
 
 [embedmd]:# (../../example/rbac/prometheus/prometheus-cluster-role-binding.yaml)
 ```yaml
-apiVersion: rbac.authorization.k8s.io/v1beta1
+apiVersion: rbac.authorization.k8s.io/v1
 kind: ClusterRoleBinding
 metadata:
   name: prometheus
@@ -264,7 +264,7 @@ Further reading:
 [bundle]: ../../bundle.yaml
 [design-doc]: ../design.md
 [exposing-prom]: exposing-prometheus-and-alertmanager.md
-[introducing-operators]: https://coreos.com/blog/introducing-operators.html
+[introducing-operators]: https://web.archive.org/web/20210210032403/https://coreos.com/blog/introducing-operators.html
 [prom-rbac]: ../rbac.md
 [prometheus-manifest]: ../../example/rbac/prometheus/prometheus.yaml
 [rbac-auth]: https://kubernetes.io/docs/reference/access-authn-authz/authorization/
